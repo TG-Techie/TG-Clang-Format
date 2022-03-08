@@ -20,19 +20,27 @@
 BasedOnStyle: Google
 AlignAfterOpenBracket: AlwaysBreak # FUTURE: BlockIndent
 AlignConsecutiveMacros: 'true'
-AlignConsecutiveDeclarations: 'true'
+AlignConsecutiveAssignments: 'true'
+AlignConsecutiveDeclarations: 'false'
 AllowAllArgumentsOnNextLine: 'true'
 AllowAllConstructorInitializersOnNextLine: 'true'
 AllowAllParametersOfDeclarationOnNextLine: 'true'
 AllowShortBlocksOnASingleLine: 'false'
+AllowShortFunctionsOnASingleLine: InlineOnly
 BinPackArguments: 'false'
 BinPackParameters: 'false'
-ColumnLimit: '88'
+ColumnLimit: '98'
+ReflowComments: 'true'
+AlignTrailingComments: 'true'
+# POTENTIAL: PenaltyBreakAssignment: 100
 ConstructorInitializerAllOnOneLineOrOnePerLine: 'true'
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
 ExperimentalAutoDetectBinPacking: 'false'
 IndentPPDirectives: AfterHash
 IndentWidth: '4'
 KeepEmptyLinesAtTheStartOfBlocks: 'false'
+MaxEmptyLinesToKeep: 2
 ObjCBinPackProtocolList: Auto
 PointerAlignment: Left
 UseTab: Never
